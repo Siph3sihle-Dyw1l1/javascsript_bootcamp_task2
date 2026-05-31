@@ -11,19 +11,22 @@
 
 <body>
     <h1>Welcome to our web application!</h1>
+    <hr>
     <p>
         Please enter the student's details below to determine the student's outcome.
     </p>
 
-    <form id="stud">
-        <lable for="name">Name: </lable>
-        <input type="text" id="name" name="name" required placeholder="Enter Student's name">
+    <div class="form_container">
+        <form id="stud">
+            <lable for="name">Name: </lable>
+            <input type="text" id="name" name="name" required placeholder="Enter Student's name">
 
-        <lable for="mark">Mark: </lable>
-        <input type="text" id="mark" name="mark" required placeholder="Enter Student's mark(%)">
+            <lable for="mark">Mark: </lable>
+            <input type="text" id="mark" name="mark" required placeholder="Enter Student's mark(%)">
 
-        <button type="submit" onclick="">Submit</button>
-    </form>
+            <button type="submit" onclick="">Submit</button>
+        </form>
+    </div>
 
     <p id="outcome">
 
