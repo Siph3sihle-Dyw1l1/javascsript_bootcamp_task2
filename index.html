@@ -16,21 +16,30 @@
         Please enter the student's details below to determine the student's outcome.
     </p>
 
-    <div class="form_container">
-        <form id="stud">
-            <lable for="name">Name: </lable>
-            <input type="text" id="name" name="name" required placeholder="Enter Student's name">
+    <section>
+        <div class="form_container">
+            <form id="stud">
+                <lable for="name">Name: </lable>
+                <input type="text" id="name" name="name" required placeholder="Enter Student's name">
 
-            <lable for="mark">Mark: </lable>
-            <input type="text" id="mark" name="mark" required placeholder="Enter Student's mark(%)">
+                <lable for="mark">Mark: </lable>
+                <input type="text" id="mark" name="mark" required placeholder="Enter Student's mark(%)">
 
-            <button type="submit" onclick="">Submit</button>
-        </form>
-    </div>
+                <button type="submit" onclick="">Submit</button>
+            </form>
+        </div>
+    </section>
 
-    <p id="outcome">
+    
+    <section id="results">
 
-    </p>
+    </section>
+
+    <section id="studList">
+        <div>
+            <button type="submit" onclick="viewStudList()" id="viewList">View Student List</button>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 

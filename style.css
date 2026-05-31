@@ -5,6 +5,7 @@ body {
     background-color: lightblue;
     margin: 0;
     padding: 10px;
+    gap: 20px;
 }
 
 hr {
@@ -29,11 +30,16 @@ input {
 }
 
 button {
-    width: 10%;
+    width: 18%;
     height: 30px;
     border-radius: 5px;
     background-color: chartreuse;
     border: none;
     cursor: pointer;
     
+    
+}
+
+#studList{
+    margin-top: 10px;
 }
