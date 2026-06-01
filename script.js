@@ -5,7 +5,7 @@ function determineStudentResults() {
     let name = document.getElementById("name").value;
     let mark = parseInt(document.getElementById("mark").value);
 
-    // Validation
+    
     if (name.trim() === "") {
         document.getElementById("results").innerHTML =
             "<p style='color:red'>Please enter a name.</p>";
@@ -55,7 +55,7 @@ function viewStudList() {
 
     let listContainer = document.getElementById("list_of_student");
 
-    // Clear previous results
+    
     listContainer.innerHTML = "";
 
     let heading = document.createElement("h2");
